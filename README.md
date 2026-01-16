@@ -518,13 +518,6 @@ Project ini berhasil mendemonstrasikan 4 kerentanan keamanan web yang umum dan t
 
 ---
 
-## 📚 Referensi
-
-1. OWASP Top 10 - https://owasp.org/www-project-top-ten/
-2. OWASP Cheat Sheet Series - https://cheatsheetseries.owasp.org/
-3. PHP Security Best Practices - https://www.php.net/manual/en/security.php
-4. PortSwigger Web Security Academy - https://portswigger.net/web-security
-
 
 **⚠️ DISCLAIMER:**
 Project ini dibuat HANYA untuk tujuan pembelajaran dan simulasi pengujian keamanan di lingkungan localhost. TIDAK BOLEH digunakan untuk eksploitasi sistem nyata atau tujuan ilegal. Penulis tidak bertanggung jawab atas penyalahgunaan kode ini.
