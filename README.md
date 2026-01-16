@@ -1,8 +1,8 @@
 # 🔐 UAS Keamanan Aplikasi Web - Security Lab Demo
 
-**Nama:** Farahdina Nayla Putri 
-**NIM:** C2C023124
-**Mata Kuliah:** Keamanan Aplikasi Web  
+**Nama:** [Farahdina Nayla Putri]  
+**NIM:** [C2C023124]  
+**Mata Kuliah:** [Keamanan Aplikasi Web]  
 **Dosen:** [Dr. Dhendra Marutho, S.Kom., M.Kom]
 
 ---
