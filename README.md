@@ -1,7 +1,7 @@
 # 🔐 UAS Keamanan Aplikasi Web - Security Lab Demo
 
-**Nama:** [Farahdina Nayla Putri]  
-**NIM:** [C2C023124]  
+**Nama:** Farahdina Nayla Putri 
+**NIM:** C2C023124
 **Mata Kuliah:** Keamanan Aplikasi Web  
 **Dosen:** [Dr. Dhendra Marutho, S.Kom., M.Kom]
 
@@ -132,10 +132,6 @@ $url = $_POST['url'] ?? '';
 $response = file_get_contents($url);
 ```
 
-**Screenshot Testing:**
-- [Screenshot: Input `http://localhost:8080/admin`]
-- [Screenshot: Berhasil akses internal network]
-
 ---
 
 ## 🛡️ SOAL 2: Modul Aman (40 Poin)
@@ -184,9 +180,6 @@ if (password_verify($password, $valid_password_hash)) {
 - Account lockout memberikan cooldown period
 - Password hashing melindungi jika database bocor
 
-**Screenshot:**
-- [Screenshot: Login gagal dengan password lemah]
-- [Screenshot: Akun terkunci setelah 3x gagal]
 
 ---
 
@@ -231,10 +224,6 @@ $_SESSION['comments'][] = ['text' => $safe_comment];
 - `strip_tags()` hapus semua HTML tags
 - `ENT_QUOTES` escape single dan double quotes
 
-**Screenshot:**
-- [Screenshot: XSS payload di-escape]
-- [Screenshot: CSRF token validation berhasil]
-
 ---
 
 ### 3. File Viewer - Whitelist Validation
@@ -274,10 +263,6 @@ $content = file_get_contents($safe_path);
 - Whitelist approach: hanya file tertentu yang boleh
 - `basename()` ambil nama file saja, buang path
 - Hardcode direktori aman untuk read file
-
-**Screenshot:**
-- [Screenshot: Path traversal ditolak]
-- [Screenshot: Hanya file whitelist yang bisa diakses]
 
 ---
 
@@ -330,10 +315,6 @@ $response = file_get_contents($url);
 - Domain whitelist: hanya domain tertentu boleh di-fetch
 - Block internal IP mencegah akses localhost
 - URL parsing untuk extract hostname
-
-**Screenshot:**
-- [Screenshot: Localhost ditolak]
-- [Screenshot: Hanya domain whitelist yang diterima]
 
 ---
 
@@ -544,18 +525,6 @@ Project ini berhasil mendemonstrasikan 4 kerentanan keamanan web yang umum dan t
 3. PHP Security Best Practices - https://www.php.net/manual/en/security.php
 4. PortSwigger Web Security Academy - https://portswigger.net/web-security
 
----
-
-## 👤 Author
-
-**Nama:** [Nama Mahasiswa]  
-**NIM:** [NIM Mahasiswa]  
-**Email:** [email@example.com]  
-**GitHub:** [username]
-
-**Tanggal:** [DD/MM/YYYY]
-
----
 
 **⚠️ DISCLAIMER:**
 Project ini dibuat HANYA untuk tujuan pembelajaran dan simulasi pengujian keamanan di lingkungan localhost. TIDAK BOLEH digunakan untuk eksploitasi sistem nyata atau tujuan ilegal. Penulis tidak bertanggung jawab atas penyalahgunaan kode ini.
